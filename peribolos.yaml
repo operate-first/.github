@@ -1,0 +1,798 @@
+orgs:
+  operate-first:
+    admins:
+      - cooktheryan
+      - durandom
+      - goern
+      - Gregory-Pereira
+      - HumairAK
+      - quaid
+      - redmikhail
+      - ryanaslett
+      - schwesig
+      - sesheta
+      - tumido
+    billing_email: mhild@redhat.com
+    company: ""
+    default_repository_permission: read
+    description: Open-sourcing operations on community-managed clusters
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: false
+    location: ""
+    members:
+      - aakankshaduggal
+      - abirami-dhayalan
+      - abyrne55
+      - accorvin
+      - ajinkyababar
+      - akcoskun
+      - akrawczy
+      - aleskandro
+      - amfred
+      - andreaTP
+      - anishasthana
+      - apoorvam
+      - AvRajath
+      - aweiteka
+      - bdlink
+      - bhanvimenghani
+      - billburnseh
+      - billmvt
+      - binnes
+      - brizrobbo
+      - bryanmontalvan
+      - caldeirav
+      - carlesarnal
+      - carlosGimeno
+      - cfchase
+      - chaitanyaenr
+      - chandrams
+      - chauhankaranraj
+      - cheesesashimi
+      - christusa
+      - codificat
+      - coghlanRH
+      - DanNiESh
+      - dastergon
+      - dave-tucker
+      - david-martin
+      - dinogun
+      - djach7
+      - dmueller2001
+      - dystewart
+      - EricWittmann
+      - erikerlandson
+      - flora177
+      - gagansk
+      - Gaikanomer9
+      - Gkrumbach07
+      - gmfrasca
+      - gshahrouzi
+      - harshad16
+      - hbrock25
+      - hemajv
+      - hlipsig
+      - hpdempsey
+      - husky-parul
+      - ipolonsk
+      - jacobarcarola
+      - JaimeMagiera
+      - jasonbrooks
+      - jeremyeder
+      - johwes
+      - jpweiser
+      - jsenko
+      - khansaad
+      - knikolla
+      - KPostOffice
+      - larsks
+      - laxmisravyarudraraju
+      - leihchen
+      - lisa
+      - lmzuccarelli
+      - LorbusChris
+      - margarethaley
+      - marroblee
+      - martinpovolny
+      - maulikjs
+      - mayaCostantini
+      - mh21
+      - MichaelClifford
+      - MichaelTiemannOSC
+      - MightyNerdEric
+      - mimotej
+      - mmazur
+      - Mohammad-nassar10
+      - mpeters
+      - msdisme
+      - msvinaykumar
+      - mtoslalibu
+      - mubariskhan96
+      - naved001
+      - nerdalert
+      - oindrillac
+      - op1st
+      - pacospace
+      - paoloantinori
+      - PARTHSONI95
+      - R-Lawton
+      - ravitejamanepalli
+      - rbadagandi
+      - rbo
+      - revit13
+      - rh-tmichels
+      - rimolive
+      - riprasad
+      - roastdeer
+      - RobotSail
+      - roytman
+      - russellb
+      - rynofinn
+      - saadullah01
+      - sallyom
+      - SamoKopecky
+      - SankBad
+      - sherine-k
+      - shreekarSS
+      - Shreyanand
+      - sindhuvahinis
+      - skanthed
+      - slntpts
+      - Spirit328
+      - stefwalter
+      - stefwrite
+      - SuJingyu111
+      - suppathak
+      - tgau
+      - TheGreymanShow
+      - timflannagan
+      - tmicheli
+      - travier
+      - traytorous
+      - TreeinRandomForest
+      - tssala23
+      - uffish
+      - VannTen
+      - veniceofcode
+      - vishnoianil
+      - vpavlin
+      - vrutkovs
+      - zaoxing
+    members_can_create_repositories: false
+    name: Operate First
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      ai-for-cloud-ops:
+        default_branch: main
+        description: Boston University Collaboratory project for applying AI to cloud operations
+        has_projects: false
+      alertmanager-github-receiver:
+        description: Prometheus Alertmanager webhook receiver that creates GitHub issues from alerts
+        has_issues: false
+        has_projects: true
+      alerts:
+        default_branch: main
+        description: Bots posting alerts from our clusters
+        has_projects: false
+      apps:
+        description: Operate-first application manifests
+        has_projects: false
+        has_wiki: false
+      argocd-apps:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        archived: true
+        default_branch: main
+        description: 'A repository to store Operate-First ArgoCD Applications '
+        has_projects: true
+      blog:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        archived: true
+        default_branch: main
+        description: Home for blog tooling, posts, and guidelines
+        has_projects: true
+      blueprint:
+        default_branch: main
+        description: This is the blueprint for the Operate First Initiative
+        has_projects: false
+        has_wiki: false
+      bragi:
+        default_branch: main
+        has_projects: true
+        has_wiki: false
+      common:
+        default_branch: main
+        description: Git Hub organization configuration
+        has_projects: false
+      community:
+        default_branch: main
+        has_projects: false
+      community-handbook:
+        default_branch: main
+        description: Community Handbook for Operate First contributors
+        has_projects: false
+      communitycloud-meetup:
+        default_branch: main
+        description: Operate First Community Cloud bi-weekly meet up
+        has_projects: true
+      continuous-delivery:
+        description: Continuous Delivery
+        has_projects: false
+        has_wiki: false
+      continuous-deployment:
+        description: Continuous Deployment
+        has_projects: false
+        has_wiki: false
+      curator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        archived: true
+        default_branch: main
+        description: Metering project for OpenShift
+        has_projects: false
+      curator-operator:
+        default_branch: main
+        description: Go Operator for OpenShift metrics
+        has_projects: false
+      espresso-series:
+        description: This is where we plan our Expresso Series Production
+        has_projects: false
+      example-acm-install:
+        has_projects: false
+      hetzner-baremetal-openshift:
+        default_branch: main
+        description: OpenShift 4 on Hetzner BareMetal (dedicted server)
+        has_projects: false
+        has_wiki: false
+      hitchhikers-guide:
+        default_branch: main
+        description: Hitchhiker's guide to Operate-first
+        has_projects: false
+      installplan-operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        archived: true
+        default_branch: main
+        description: Approve manual updates using information in a configmap
+        has_projects: true
+      ionos-openshift:
+        default_branch: main
+        description: IONOS HV on OpenShift
+        has_projects: false
+        has_wiki: false
+      kepler-edge-demo:
+        default_branch: main
+        description: Use GitOps to schedule workloads following anti-sun pattern in Federated Learning at Edge
+        has_projects: false
+        has_wiki: false
+      odh-dashboard:
+        has_projects: false
+      odh-manifests:
+        description: A repository for Open Data Hub Kustomize manifests extending upstream Kubeflow manifests
+        has_issues: false
+        has_projects: true
+      operate-first-data-science-community:
+        default_branch: main
+        description: GitHub home of operate first data science community content
+        has_projects: true
+        homepage: https://operate-first-data-science-community.catalog.meteor.zone/
+      operate-first-in-action:
+        default_branch: main
+        description: This repository will serve as the content hub for our 2022 summit video "Operate First In Action"
+        has_projects: true
+      operate-first-twitter:
+        default_branch: main
+        description: 'This repository will be used to publish tweets collaboratively  from the Operate First shared Twitter Account. '
+        has_projects: false
+        homepage: https://twitter.com/OperateFirst
+      operate-first.github.io:
+        default_branch: main
+        description: 'Website of the Operate First initiative '
+        has_projects: false
+        has_wiki: false
+      operate-first.github.io-old:
+        has_projects: false
+        has_wiki: false
+      operations:
+        description: The sig-operations repository.
+        has_projects: false
+      opfcli:
+        default_branch: main
+        has_projects: false
+      peribolos-as-a-service:
+        default_branch: main
+        description: Declarative GitHub Organization management via Peribolos as a service
+        has_projects: false
+        has_wiki: false
+      probot-extensions:
+        default_branch: main
+        description: Extensions to Probot App when run as a service
+        has_projects: false
+        has_wiki: false
+      probot-template:
+        default_branch: main
+        description: Template for Probot on Kubernetes
+        has_projects: false
+        has_wiki: false
+      robozome:
+        default_branch: main
+        description: Project to automate issue processing for Operate First
+        has_projects: false
+      schema-store:
+        default_branch: main
+        description: Schemas for kubernetes manifest validations
+        has_projects: false
+      service-catalog:
+        default_branch: main
+        description: Service catalog for the operate-first community cloud
+        has_projects: false
+      slo-evaluator:
+        default_branch: main
+        description: Evaluate&Store Engine for OpenSLO–defined Objectives
+        has_projects: false
+      sre:
+        default_branch: main
+        description: SRE content
+        has_projects: false
+      sre-apprenticeship:
+        default_branch: main
+        description: Issue tracker for the SRE Apprenticeship
+        has_projects: true
+      sre-u:
+        description: SRE-U content
+        has_projects: false
+      support:
+        default_branch: main
+        description: This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
+        has_projects: false
+      template:
+        default_branch: main
+        description: Quick template for new repositories
+        has_projects: false
+      toolbox:
+        description: Toolbox for Operate-First tooling
+        has_projects: false
+      training:
+        default_branch: main
+        description: All training content for users and contributors
+        has_projects: false
+      utility-scripts:
+        default_branch: main
+        description: A location to hold scripts related to non-openshift cloud resources.
+        has_projects: false
+        has_wiki: false
+      workshop-apps:
+        default_branch: main
+        description: 'Repository of ArgoCD application for workshop purposes '
+        has_projects: false
+        has_wiki: false
+    teams:
+      Baristas:
+        description: The Espresso Series Baristas
+        maintainers:
+          - quaid
+          - durandom
+          - goern
+        members:
+          - MichaelClifford
+          - Shreyanand
+          - oindrillac
+        privacy: closed
+        repos:
+          espresso-series: maintain
+      Curator:
+        description: A team that works on the Curator project.
+        members:
+          - timflannagan
+          - ajinkyababar
+          - leihchen
+          - AvRajath
+          - skanthed
+        privacy: closed
+        repos:
+          curator: write
+          curator-operator: write
+      DevSecOps:
+        description: A team that works on the Dev Sec operations.
+        maintainers:
+          - goern
+          - tumido
+          - HumairAK
+          - Gregory-Pereira
+        members:
+          - harshad16
+        privacy: closed
+        repos:
+          common: admin
+          continuous-delivery: admin
+      SourceOps:
+        description: This is our SourceOps team, they keep the source fresh.
+        maintainers:
+          - sesheta
+          - op1st
+        privacy: closed
+        repos:
+          alerts: admin
+          apps: admin
+          argocd-apps: admin
+          blueprint: admin
+          common: admin
+          community: admin
+          community-handbook: admin
+          continuous-delivery: admin
+          continuous-deployment: admin
+          curator: admin
+          curator-operator: admin
+          espresso-series: admin
+          example-acm-install: admin
+          hetzner-baremetal-openshift: admin
+          hitchhikers-guide: admin
+          installplan-operator: admin
+          ionos-openshift: admin
+          odh-dashboard: admin
+          operate-first-twitter: admin
+          operate-first.github.io: admin
+          operate-first.github.io-old: admin
+          operations: admin
+          opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
+          robozome: admin
+          schema-store: admin
+          service-catalog: admin
+          sre-apprenticeship: admin
+          support: admin
+          template: admin
+          toolbox: admin
+          workshop-apps: admin
+      admins:
+        description: The admin team for operate-first. Members have admin access to all operate-first repos.
+        maintainers:
+          - quaid
+          - tumido
+          - HumairAK
+        members:
+          - larsks
+        privacy: closed
+        repos:
+          alerts: admin
+          apps: admin
+          argocd-apps: admin
+          blueprint: admin
+          common: admin
+          community: admin
+          community-handbook: admin
+          continuous-delivery: admin
+          continuous-deployment: admin
+          curator: admin
+          curator-operator: admin
+          espresso-series: admin
+          example-acm-install: admin
+          hetzner-baremetal-openshift: admin
+          hitchhikers-guide: admin
+          installplan-operator: admin
+          ionos-openshift: admin
+          odh-dashboard: admin
+          operate-first-twitter: admin
+          operate-first.github.io: admin
+          operate-first.github.io-old: admin
+          operations: admin
+          opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
+          robozome: admin
+          schema-store: admin
+          service-catalog: admin
+          sre-apprenticeship: admin
+          support: admin
+          template: admin
+          toolbox: admin
+          training: admin
+          workshop-apps: admin
+      ai-for-cloud-ops:
+        description: A team maintaining AI for cloud ops collaboratory projects.
+        members:
+          - zaoxing
+          - abyrne55
+          - akcoskun
+          - mtoslalibu
+        privacy: closed
+        repos:
+          ai-for-cloud-ops: admin
+      blog:
+        description: Writers and reviewers of Op1st blog posts
+        maintainers:
+          - mmazur
+          - quaid
+          - durandom
+          - jeremyeder
+          - uffish
+          - schwesig
+        members:
+          - larsks
+          - stefwrite
+          - jasonbrooks
+          - stefwalter
+          - david-martin
+          - amfred
+          - MichaelClifford
+          - billburnseh
+          - msdisme
+          - hemajv
+          - sallyom
+          - aakankshaduggal
+          - akrawczy
+          - oindrillac
+          - hpdempsey
+          - R-Lawton
+          - coghlanRH
+          - bryanmontalvan
+          - margarethaley
+          - MichaelTiemannOSC
+        privacy: closed
+        repos:
+          blog: triage
+      blog-editorial:
+        description: Editors who are allowed to edit and publish blog posts
+        maintainers:
+          - mmazur
+          - quaid
+          - durandom
+          - jeremyeder
+        members:
+          - stefwrite
+          - coghlanRH
+        privacy: closed
+        repos:
+          blog: write
+      blog-publishers:
+        description: Team that can rework the blog platform and make ultimate publishing decisions
+        maintainers:
+          - quaid
+          - durandom
+        privacy: closed
+        repos:
+          blog: admin
+      community-admins:
+        description: ""
+        maintainers:
+          - quaid
+          - durandom
+        members:
+          - jasonbrooks
+          - billburnseh
+          - margarethaley
+        privacy: closed
+        repos:
+          community: admin
+          community-handbook: admin
+      custodians:
+        description: Has extra (write) permissions to be able to add issues to projects
+        maintainers:
+          - quaid
+          - tumido
+          - Gregory-Pereira
+        members:
+          - larsks
+          - billburnseh
+          - hemajv
+          - harshad16
+          - oindrillac
+          - gagansk
+          - dystewart
+        privacy: closed
+        repos:
+          alerts: write
+          apps: write
+          argocd-apps: write
+          blueprint: write
+          community: write
+          community-handbook: write
+          continuous-delivery: write
+          continuous-deployment: write
+          curator: write
+          curator-operator: write
+          espresso-series: write
+          example-acm-install: write
+          hetzner-baremetal-openshift: write
+          hitchhikers-guide: write
+          installplan-operator: write
+          ionos-openshift: admin
+          odh-dashboard: write
+          operate-first-twitter: write
+          operate-first.github.io: write
+          operate-first.github.io-old: write
+          operations: write
+          opfcli: write
+          robozome: write
+          schema-store: write
+          service-catalog: write
+          sre-apprenticeship: write
+          support: write
+          template: write
+          toolbox: write
+          workshop-apps: write
+      ionos-openshift:
+        description: A team maintaining the IONOS OpenShift project
+        maintainers:
+          - durandom
+          - schwesig
+        members:
+          - tmicheli
+        privacy: closed
+        repos:
+          ionos-openshift: admin
+      kepler:
+        description: Manage kepler projects in Op1st
+        maintainers:
+          - HumairAK
+          - redmikhail
+        members:
+          - husky-parul
+        privacy: closed
+        repos:
+          kepler-edge-demo: admin
+      odh:
+        description: OpenDataHub operations
+        maintainers:
+          - durandom
+          - HumairAK
+          - Gregory-Pereira
+        members:
+          - Gkrumbach07
+          - harshad16
+        privacy: closed
+        repos:
+          odh-manifests: admin
+      operate-first-in-action:
+        description: A team maintaining the Operate First in Action repo
+        maintainers:
+          - durandom
+          - goern
+          - tumido
+          - schwesig
+        members:
+          - MichaelClifford
+          - aakankshaduggal
+          - oindrillac
+        privacy: closed
+        repos:
+          operate-first-in-action: admin
+      osc-admins:
+        description: Additional privileges to relevant repositories for OS-Climate project admins
+        maintainers:
+          - ryanaslett
+          - erikerlandson
+          - MightyNerdEric
+          - redmikhail
+        members:
+          - caldeirav
+        privacy: closed
+        repos:
+          apps: admin
+          odh-manifests: admin
+          support: write
+      sre:
+        description: A team maintaining SRE–related projects.
+        members:
+          - lisa
+          - mmazur
+          - david-martin
+          - jeremyeder
+          - uffish
+        privacy: closed
+        repos:
+          slo-evaluator: admin
+          sre: admin
+      sre-u:
+        description: A team maintaining the Operate First, Red Hat SRE-U training
+        members:
+          - hlipsig
+          - marroblee
+        privacy: closed
+        repos:
+          sre-u: admin
+      training:
+        description: Manage all training content for users and contributors
+        members:
+          - stefwrite
+        privacy: closed
+        repos:
+          training: admin
+      triagers:
+        description: A team that can triage.
+        maintainers:
+          - quaid
+          - goern
+          - tumido
+          - HumairAK
+          - Gregory-Pereira
+          - schwesig
+        members:
+          - rbo
+          - larsks
+          - erikerlandson
+          - codificat
+          - MichaelClifford
+          - billburnseh
+          - anishasthana
+          - hemajv
+          - Shreyanand
+          - harshad16
+          - maulikjs
+          - aakankshaduggal
+          - suppathak
+          - oindrillac
+          - SamoKopecky
+          - gagansk
+          - leihchen
+          - mimotej
+          - hpdempsey
+          - PARTHSONI95
+          - margarethaley
+          - dystewart
+        privacy: closed
+        repos:
+          alerts: triage
+          apps: triage
+          argocd-apps: triage
+          blueprint: triage
+          common: triage
+          community: triage
+          community-handbook: triage
+          continuous-delivery: triage
+          continuous-deployment: triage
+          curator: triage
+          curator-operator: triage
+          espresso-series: triage
+          example-acm-install: triage
+          hetzner-baremetal-openshift: triage
+          hitchhikers-guide: triage
+          installplan-operator: triage
+          ionos-openshift: admin
+          odh-dashboard: triage
+          operate-first-twitter: triage
+          operate-first.github.io: triage
+          operate-first.github.io-old: triage
+          operations: triage
+          opfcli: triage
+          peribolos-as-a-service: triage
+          probot-extensions: triage
+          probot-template: triage
+          schema-store: triage
+          service-catalog: triage
+          sre-apprenticeship: triage
+          support: triage
+          template: triage
+          toolbox: triage
+          training: triage
+          workshop-apps: triage
+      website:
+        description: A team maintaining any websites/webpages for the project
+        maintainers:
+          - quaid
+          - bryanmontalvan
+          - schwesig
+        members:
+          - stefwrite
+        privacy: secret
+        repos:
+          operate-first.github.io: admin
+      workshoppers:
+        description: A team for members that are creating/writing workshops.
+        members:
+          - vpavlin
+          - pacospace
+        privacy: closed
+        repos:
+          workshop-apps: admin
