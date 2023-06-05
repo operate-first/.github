@@ -1,0 +1,27 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+approvers:
+  - codificat
+  - cooktheryan
+  - durandom
+  - goern
+  - gregory-pereira
+  - harshad16
+  - hpdempsey
+  - quaid
+  - rbo
+  - schwesig
+  - tumido
+
+reviewers:
+  - codificat
+  - cooktheryan
+  - durandom
+  - goern
+  - gregory-pereira
+  - harshad16
+  - hpdempsey
+  - quaid
+  - rbo
+  - schwesig
+  - tumido
