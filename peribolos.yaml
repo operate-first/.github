@@ -164,7 +164,8 @@ orgs:
     repos:
       .github:
         default_branch: main
-        has_projects: true
+        has_projects: false
+        has_wiki: false
       ai-for-cloud-ops:
         default_branch: main
         description: Boston University Collaboratory project for applying AI to cloud operations
@@ -182,17 +183,11 @@ orgs:
         has_projects: false
         has_wiki: false
       argocd-apps:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        allow_squash_merge: false
         archived: true
         default_branch: main
-        description: 'A repository to store Operate-First ArgoCD Applications '
+        description: A repository to store Operate-First ArgoCD Applications
         has_projects: true
       blog:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        allow_squash_merge: false
         archived: true
         default_branch: main
         description: Home for blog tooling, posts, and guidelines
@@ -230,9 +225,6 @@ orgs:
         has_projects: false
         has_wiki: false
       curator:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        allow_squash_merge: false
         archived: true
         default_branch: main
         description: Metering project for OpenShift
@@ -256,9 +248,6 @@ orgs:
         description: Hitchhiker's guide to Operate-first
         has_projects: false
       installplan-operator:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        allow_squash_merge: false
         archived: true
         default_branch: main
         description: Approve manual updates using information in a configmap
@@ -290,12 +279,12 @@ orgs:
         has_projects: true
       operate-first-twitter:
         default_branch: main
-        description: 'This repository will be used to publish tweets collaboratively  from the Operate First shared Twitter Account. '
+        description: This repository will be used to publish tweets collaboratively  from the Operate First shared Twitter Account.
         has_projects: false
         homepage: https://twitter.com/OperateFirst
       operate-first.github.io:
         default_branch: main
-        description: 'Website of the Operate First initiative '
+        description: Website of the Operate First initiative
         has_projects: false
         has_wiki: false
       operate-first.github.io-old:
@@ -371,7 +360,7 @@ orgs:
         has_wiki: false
       workshop-apps:
         default_branch: main
-        description: 'Repository of ArgoCD application for workshop purposes '
+        description: Repository of ArgoCD application for workshop purposes
         has_projects: false
         has_wiki: false
     teams:
