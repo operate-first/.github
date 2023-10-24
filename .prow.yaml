@@ -33,7 +33,7 @@ presubmits:
                 --fix-teams \
                 --fix-team-members \
                 --fix-team-repos \
-                --allow-repo-archival \
+                --allow-repo-archival
           volumeMounts:
             - name: github-oauth
               mountPath: /etc/github
