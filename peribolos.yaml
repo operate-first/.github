@@ -169,6 +169,8 @@ orgs:
       - vpavlin
       - vrutkovs
       - zaoxing
+      - krisv
+      - TomB1111
     members_can_create_repositories: false
     name: Operate First
     repos:
