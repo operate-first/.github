@@ -159,10 +159,17 @@ orgs:
       - vpavlin
       - vrutkovs
       - zaoxing
+      - krisv
+      - TomB1111
     members_can_create_repositories: false
     name: Operate First
     repos:
       .github:
+        default_branch: main
+        has_projects: false
+        has_wiki: false
+      genAI-for-document-generation:
+        description: This is a Project to design, plan, deploy and operate an AI-based generator for (technical) documents.
         default_branch: main
         has_projects: false
         has_wiki: false
