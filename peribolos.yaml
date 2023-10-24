@@ -40,6 +40,7 @@ orgs:
       - billburnseh
       - billmvt
       - binnes
+      - bmozaffa
       - brizrobbo
       - bryanmontalvan
       - caldeirav
@@ -64,6 +65,7 @@ orgs:
       - EricWittmann
       - erikerlandson
       - flora177
+      - fOO223Fr
       - gagansk
       - Gaikanomer9
       - Gkrumbach07
@@ -86,6 +88,7 @@ orgs:
       - khansaad
       - knikolla
       - KPostOffice
+      - krisv
       - larsks
       - laxmisravyarudraraju
       - leihchen
@@ -104,6 +107,7 @@ orgs:
       - mimotej
       - mmazur
       - Mohammad-nassar10
+      - mpaulgreen
       - mpeters
       - msdisme
       - msvinaykumar
@@ -111,6 +115,7 @@ orgs:
       - mubariskhan96
       - naved001
       - nerdalert
+      - ohadlevy
       - oindrillac
       - op1st
       - pacospace
@@ -133,6 +138,7 @@ orgs:
       - sallyom
       - SamoKopecky
       - SankBad
+      - sauagarwa
       - sherine-k
       - shreekarSS
       - Shreyanand
@@ -144,13 +150,17 @@ orgs:
       - stefwrite
       - SuJingyu111
       - suppathak
+      - swati-kale
       - tgau
       - TheGreymanShow
       - timflannagan
       - tmicheli
+      - TomB1111
       - travier
       - traytorous
       - TreeinRandomForest
+      - trujillm
+      - tsisodia10
       - tssala23
       - uffish
       - VannTen
@@ -163,6 +173,11 @@ orgs:
     name: Operate First
     repos:
       .github:
+        default_branch: main
+        has_projects: false
+        has_wiki: false
+      genAI-for-document-generation:
+        description: This is a Project to design, plan, deploy and operate an AI-based generator for (technical) documents.
         default_branch: main
         has_projects: false
         has_wiki: false
@@ -364,6 +379,24 @@ orgs:
         has_projects: false
         has_wiki: false
     teams:
+      genAI-for-document-generation:
+        description: Team supporting project 61
+        maintainers:
+          - goern
+          - krisv
+          - swati-kale
+        members:
+          - bmozaffa
+          - fOO223Fr
+          - mpaulgreen
+          - ohadlevy
+          - redmikhail
+          - sauagarwa
+          - trujillm
+          - tsisodia10
+        privacy: closed
+        repos:
+          genAI-for-document-generation: write
       Baristas:
         description: The Espresso Series Baristas
         maintainers:
