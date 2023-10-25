@@ -191,10 +191,12 @@ orgs:
         description: Prometheus Alertmanager webhook receiver that creates GitHub issues from alerts
         has_issues: false
         has_projects: true
+        has_wiki: false
       alerts:
         default_branch: main
         description: Bots posting alerts from our clusters
         has_projects: false
+        has_wiki: false
       apps:
         description: Operate-first application manifests
         has_projects: false
@@ -222,6 +224,7 @@ orgs:
         default_branch: main
         description: Git Hub organization configuration
         has_projects: false
+        has_wiki: false
       community:
         default_branch: main
         has_projects: false
