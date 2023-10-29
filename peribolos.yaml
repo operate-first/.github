@@ -1,17 +1,10 @@
 orgs:
   operate-first:
     admins:
-      - cooktheryan
       - durandom
       - goern
-      - Gregory-Pereira
-      - HumairAK
       - quaid
-      - redmikhail
-      - ryanaslett
       - schwesig
-      - sesheta
-      - tumido
     billing_email: mhild@redhat.com
     company: ""
     default_repository_permission: read
@@ -54,6 +47,7 @@ orgs:
       - christusa
       - codificat
       - coghlanRH
+      - cooktheryan
       - DanNiESh
       - dastergon
       - dave-tucker
@@ -70,12 +64,14 @@ orgs:
       - Gaikanomer9
       - Gkrumbach07
       - gmfrasca
+      - Gregory-Pereira
       - gshahrouzi
       - harshad16
       - hbrock25
       - hemajv
       - hlipsig
       - hpdempsey
+      - HumairAK
       - husky-parul
       - ipolonsk
       - jacobarcarola
@@ -88,6 +84,7 @@ orgs:
       - khansaad
       - knikolla
       - KPostOffice
+      - krisv
       - krisv
       - larsks
       - laxmisravyarudraraju
@@ -125,6 +122,7 @@ orgs:
       - ravitejamanepalli
       - rbadagandi
       - rbo
+      - redmikhail
       - revit13
       - rh-tmichels
       - rimolive
@@ -133,6 +131,7 @@ orgs:
       - RobotSail
       - roytman
       - russellb
+      - ryanaslett
       - rynofinn
       - saadullah01
       - sallyom
@@ -156,12 +155,14 @@ orgs:
       - timflannagan
       - tmicheli
       - TomB1111
+      - TomB1111
       - travier
       - traytorous
       - TreeinRandomForest
       - trujillm
       - tsisodia10
       - tssala23
+      - tumido
       - uffish
       - VannTen
       - veniceofcode
@@ -169,8 +170,6 @@ orgs:
       - vpavlin
       - vrutkovs
       - zaoxing
-      - krisv
-      - TomB1111
     members_can_create_repositories: false
     name: Operate First
     repos:
