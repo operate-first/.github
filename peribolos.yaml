@@ -437,7 +437,6 @@ orgs:
       SourceOps:
         description: This is our SourceOps team, they keep the source fresh.
         maintainers:
-          - sesheta
           - op1st
         privacy: closed
         repos:
