@@ -5,15 +5,15 @@ approvers:
   - durandom
   - goern
   - harshad16
-  - hpdempsey
   - rbo
   - schwesig
   - tumido
+  - quaid
 
 emeritus_approvers:
   - cooktheryan
   - gregory-pereira
-  - quaid
+  - hpdempsey
 
 reviewers:
   - codificat

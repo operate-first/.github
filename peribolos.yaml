@@ -5,6 +5,7 @@ orgs:
       - goern
       - quaid
       - schwesig
+      - sesheta
     billing_email: mhild@redhat.com
     company: ""
     default_repository_permission: read
