@@ -1,17 +1,11 @@
 orgs:
   operate-first:
     admins:
-      - cooktheryan
       - durandom
       - goern
-      - Gregory-Pereira
-      - HumairAK
       - quaid
-      - redmikhail
-      - ryanaslett
       - schwesig
       - sesheta
-      - tumido
     billing_email: mhild@redhat.com
     company: ""
     default_repository_permission: read
@@ -54,6 +48,7 @@ orgs:
       - christusa
       - codificat
       - coghlanRH
+      - cooktheryan
       - DanNiESh
       - dastergon
       - dave-tucker
@@ -70,12 +65,14 @@ orgs:
       - Gaikanomer9
       - Gkrumbach07
       - gmfrasca
+      - Gregory-Pereira
       - gshahrouzi
       - harshad16
       - hbrock25
       - hemajv
       - hlipsig
       - hpdempsey
+      - HumairAK
       - husky-parul
       - ipolonsk
       - jacobarcarola
@@ -88,6 +85,7 @@ orgs:
       - khansaad
       - knikolla
       - KPostOffice
+      - krisv
       - krisv
       - larsks
       - laxmisravyarudraraju
@@ -125,6 +123,7 @@ orgs:
       - ravitejamanepalli
       - rbadagandi
       - rbo
+      - redmikhail
       - revit13
       - rh-tmichels
       - rimolive
@@ -133,6 +132,7 @@ orgs:
       - RobotSail
       - roytman
       - russellb
+      - ryanaslett
       - rynofinn
       - saadullah01
       - sallyom
@@ -156,12 +156,14 @@ orgs:
       - timflannagan
       - tmicheli
       - TomB1111
+      - TomB1111
       - travier
       - traytorous
       - TreeinRandomForest
       - trujillm
       - tsisodia10
       - tssala23
+      - tumido
       - uffish
       - VannTen
       - veniceofcode
@@ -169,8 +171,6 @@ orgs:
       - vpavlin
       - vrutkovs
       - zaoxing
-      - krisv
-      - TomB1111
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -191,10 +191,12 @@ orgs:
         description: Prometheus Alertmanager webhook receiver that creates GitHub issues from alerts
         has_issues: false
         has_projects: true
+        has_wiki: false
       alerts:
         default_branch: main
         description: Bots posting alerts from our clusters
         has_projects: false
+        has_wiki: false
       apps:
         description: Operate-first application manifests
         has_projects: false
@@ -222,6 +224,7 @@ orgs:
         default_branch: main
         description: Git Hub organization configuration
         has_projects: false
+        has_wiki: false
       community:
         default_branch: main
         has_projects: false
@@ -435,7 +438,6 @@ orgs:
       SourceOps:
         description: This is our SourceOps team, they keep the source fresh.
         maintainers:
-          - sesheta
           - op1st
         privacy: closed
         repos:
